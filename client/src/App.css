@@ -1,0 +1,216 @@
+@import url('http://fonts.cdnfonts.com/css/gotham-book');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #EEEEEE
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  max-width: 900px;
+  min-width: 800px;
+  margin: auto;
+}
+.ReactModal__Content{
+    background: #222E33 !important;
+    color: white !important;
+    text-align: justify;
+    border: none !important;
+    height: 80%;
+}
+
+ReactModal__Content--after-open{
+    z-index: 10 !important;
+}
+
+.modal-img{
+    width: 100%;
+}
+
+.close-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close{
+    cursor: pointer;
+}
+
+.modal-list{
+    margin-left: 20px;
+}
+
+.ReactModal__Overlay{
+    background-color: rgba(36,46,51,0.75) !important;
+}
+
+/* Centered text */
+.horario {
+    font-size: 27px;
+    position: absolute;
+    top: 64%;
+    left: 26%;
+    color: #8046A7 !important;
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.cabra {
+  position: absolute;
+  z-index: 99;
+  top: 40%;
+  left: 55%;
+  width: 165px;
+  border: 6px solid white;
+  @media screen and (max-width){
+
+    top: 40%;
+  left: 55%;
+  width: 30%;
+    
+  }
+}
+
+.tech-day {
+    font-size: 25.97px;
+    position: absolute;
+    top: 55.2%;
+    left: 26%;
+    color: #6ac246;
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    background-color: white;
+}
+.register-a{
+    font-family: "Gotham Book", sans-serif;
+    color: #46c0d9;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.container-div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child-div{
+    width: 500px;
+    background-color: red;
+}
+.asistencia{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+.footer{
+    font-family: 'Montserrat', sans-serif;
+}
+.bold-footer{
+    font-weight: bolder;
+}
+.aviso{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.avico{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px !important;
+    text-decoration-line: none;
+}
+.footer-modal{
+
+}
+.invite-img{
+    height: 100vh;
+    max-height: 100vh;
+}
+.desktop-main{
+    display: block;
+}
+.mobile-main{
+    display: none;
+}
+.qr-mobile{
+    display: none;
+}
+.qr-desktop{
+    display: block;
+}
+
+.header-prof{
+    height: 200px;
+    background-image: url(../public/header.svg);
+}
+@media (max-width: 599px) { 
+    .hQVtTh{
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .sc-dkPtRN {
+        font-size: 20px !important;
+    }
+    .sc-cZMNgc {
+        font-size: 10px !important;
+        left: 273px !important;
+    }
+    .ecaVUq{
+        margin-bottom: 20px !important;
+    }
+    .container{
+        text-align: start;
+        min-width: 0;
+        max-width: none;
+    }
+    .invite-img{
+        height: 87vh;
+        max-height: 87vh;
+    }
+    .cabra{
+        left: 63%;
+        width: 115px;
+    }
+    .qr-mobile{
+        display: block;
+    }
+    .qr-desktop{
+        display: none;
+    }
+    .tech-day{
+        left: 9%;
+        font-size: 18.97px;
+    }
+    .horario{
+        font-size: 18px;
+        left: 9%;
+        top: 63%;
+    }
+    .giLpSO{
+        margin: 0 !important;
+    }
+    .eZEkpB{
+        font-size: 15px !important;
+    }
+    .desktop-main{
+        display: none;
+    }
+    .mobile-main{
+        display: block;
+    }
+    .efmoyn{
+        font-size: 25px !important;
+    }
+    .iFWyLr ,.cTuSV{
+        font-size: 28px !important;
+    }
+
+}
